@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-02T08:05:31.322Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="MM8L9xq0vkkeIAsPE8je" version="21.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-02T08:09:50.187Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0" etag="35L76h_fJqTkycU3Ecmd" version="21.4.0" type="github">
   <diagram name="Page-1" id="ZLMyaobcX-53a4lmqFE0">
     <mxGraphModel dx="1434" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -121,7 +121,7 @@
         <mxCell id="7CRPoGejsP9kjgaNmMWm-36" value="Basic web application architecture on AWS" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
           <mxGeometry x="535" y="40" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="7CRPoGejsP9kjgaNmMWm-37" value="&lt;div align=&quot;left&quot;&gt;&lt;h4&gt;Minimum 2 AZ =&amp;gt; let&#39;s reserve capacity.&lt;/h4&gt;&lt;h4&gt;Can even use spot instances for less cost. Depends on the reliability requirements.&lt;/h4&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="7CRPoGejsP9kjgaNmMWm-37" value="&lt;div align=&quot;left&quot;&gt;&lt;h4&gt;Minimum 2 AZ =&amp;gt; let&#39;s reserve capacity.&lt;/h4&gt;&lt;div&gt;&lt;h4&gt;Instances receives traffic only from the ELB.&lt;/h4&gt;&lt;/div&gt;&lt;h4&gt;Can even use spot instances for less cost. Depends on the reliability requirements.&lt;/h4&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="80" y="680" width="270" height="90" as="geometry" />
         </mxCell>
       </root>
